@@ -38,6 +38,23 @@ function pares(x, y) {
 pares(32, 321);
 
 
+Resolução
+
+1º Crie a função
+function pares(x, y) {
+    while (x <= y) {
+      if (x % 2 == 0) {
+        console.log(x);
+        
+      }
+	  x++;
+    }
+  }
+  
+  
+  2º Passe os valores no agurmento
+  pares(12, 311);
+
 
 
 3º exercício
